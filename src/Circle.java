@@ -39,4 +39,8 @@ public class Circle {
 	public String toString() {
 		return "[Color : " + this.color + ", Radius : " + this.radius + "]";
 	}
+	
+	public double getCircumference() {
+		return this.radius*2*Math.PI;
+	}
 }
