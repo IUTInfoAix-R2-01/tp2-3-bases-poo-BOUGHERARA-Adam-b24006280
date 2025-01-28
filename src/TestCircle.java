@@ -5,5 +5,4 @@ public class TestCircle {
 		Circle cercle = new Circle(5);
 		System.out.println(cercle.getRadius());
 	}
-
 }
